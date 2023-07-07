@@ -1,0 +1,29 @@
+[package]
+name = "bonga_proc_macro" # the name of the package
+version = "2.0.0"   
+readme = "README.md"
+description = "ol-chiki programming language"
+homepage = "https://github.com/rustchiki/bon"
+repository = "https://github.com/rustchiki/bon"
+license = "MIT"
+
+ 
+
+
+
+[workspace]
+members = [
+    "bonga_proc_macro",
+    "examples"
+]
+
+
+[dependencies]
+cargo-workspaces = "0.2.44"
+tarball = "1.0.3"
+
+
+
+
+
+
