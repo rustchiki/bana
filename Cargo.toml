@@ -20,6 +20,7 @@ members = [
 
 [dependencies]
 cargo-workspaces = "0.2.44"
+tarball = "1.0.3"
 
 
 
